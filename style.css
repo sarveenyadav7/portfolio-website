@@ -5,6 +5,8 @@
 }
 body{
 	background-color: #3bc7ff21;
+	font-family: 'Dosis', sans-serif;
+
 }
 .outer{
 	width: 100%;
@@ -393,10 +395,70 @@ a{
 
 .experience{
 	width: 100%;
-	height: 550px;
+	height: 1100px;
 	border: 1px solid blueviolet;
 	margin-top: 80px;
-	border-top-left-radius: 540px;
+	position: relative;
+}
+.experience2022{
+	width: 100px;
+	height: 100px;
+	border: 1px solid blueviolet;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 60px;
+	background-color: green, blue, white;
+}
+.experience2022 h1{
+	/*padding-left: 10px;*/
+	padding-top: 30px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.experience1{
+	width: 500px;
+	height: 200px;
+	border: 1px solid blueviolet;
+	position: absolute;
+	top: 204px;
+	left: -400px;
+}
+.experience:hover .experience1{
+	transition: 2s;
+	/*position: absolute;*/
+	top: 204px;
+	left: 100px;
+}
+
+.experience2{
+	width: 500px;
+	height: 200px;
+	border: 1px solid blueviolet;
+	position: absolute;
+	top: 480px;
+	left: -400px;
+}
+.experience:hover .experience2{
+	transition: 3s;
+	position: absolute;
+	top: 480px;
+	left: 400px;
+}
+
+.experience3{
+	width: 500px;
+	height: 200px;
+	border: 1px solid blueviolet;
+	position: absolute;
+	top: 756px;
+	left: -401px;
+}
+.experience:hover .experience3{
+	transition: 4s;
+	position: absolute;
+	top: 756px;
+	left: 700px;
 }
 
 
