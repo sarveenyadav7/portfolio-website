@@ -37,13 +37,13 @@ body{
 	font-size: 24px;
 	color: rgba(0, 0, 0, 0.2);
 	position: absolute;
-	top: 250px;
-	left: 15px;
+	top: 320px;
+	left: 10px;
 	/*text-align: center;*/
 
 	}
 ul {
-	list-style-type: none;
+	list-style-typse: none;
 	}
 li{
 	margin: 0 auto;
@@ -53,6 +53,7 @@ li{
 a{
 	color: darkgrey;
 	text-decoration: none;
+	/*float: left;*/
 	}
 i{
 	padding: 10px;
@@ -354,3 +355,155 @@ iframe{
 	width: 100%;
 	height: 300px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+	.left_container{
+		width: 100%;
+		height: 100vh;
+	}
+	.shadow{
+		width: 100%;
+		height: 200px;
+	}
+
+	.right_container{
+		width: 100%;
+		height: 100vh;
+		border: 1px solid black;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
