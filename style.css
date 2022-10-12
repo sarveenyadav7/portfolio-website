@@ -407,12 +407,13 @@ li:hover a{
 
 .contact{
 	width: 100%;
-	height: 149vh;
+	height: 140vh;
+	/*padding-bottom: 0px;*/
 	background: white;
 }
 .contact_details{
 	width: 100%;
-	height: 270px;
+	height: 499px;
 	margin-top: 30px;
 	/*border: 1px solid orange;*/
 	float: left;
@@ -455,11 +456,13 @@ li:hover a{
 	height: 300px;
 	/*border: 1px solid blueviolet;*/
 	float: left;
+	padding-top: 30px;
 }
 iframe{
 	width: 100%;
 	height: 300px;
 }
+
 
 
 .footer{
@@ -468,6 +471,7 @@ iframe{
 	background: black;
 	padding: 40px;
 	font-size: 15px;
+	float: left;
 }
 
 
