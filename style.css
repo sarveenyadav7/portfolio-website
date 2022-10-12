@@ -185,6 +185,10 @@ li:hover a{
 	margin: 20px;
 	margin-top: 30px;
 	margin-left: 36px;
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .facts{
