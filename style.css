@@ -282,28 +282,28 @@ li:hover a{
 .progress-bar{
 	width: 70%;
 	height: 10px;
-	background-color: green;
+	background-color: #f16529;
 	/*margin-top: 10px;*/
 
 }
 .progress-bar1{
 	width: 70%;
 	height: 10px;
-	background-color: orange;
+	background-color: #2965f1;
 	/*margin-top: 10px;*/
 
 }
 .progress-bar2{
 	width: 70%;
 	height: 10px;
-	background-color: orangered;
+	background-color: #7309f5;
 	/*margin-top: 10px;*/
 
 }
 .progress-bar3{
 	width: 70%;
 	height: 10px;
-	background-color: darkred;
+	background-color: #e8c831;
 	/*margin-top: 10px;*/
 
 }
@@ -452,10 +452,10 @@ li:hover a{
 	width: 350px;
 	height: 40px;
 	/*border: 1px solid blue;*/
-	margin-top: 30px;
-	margin-left: 30px;
+	/*margin-top: 40px;*/
+	/*margin-left: 60px;*/
 	word-spacing: 20px;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 	padding-left: 5px;
 	/*text-align: center;*/
 	margin: 0 auto;
