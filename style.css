@@ -138,7 +138,7 @@ li:hover a{
 
 .about{
 	width: 100%;
-	height: 190vh;
+	height: 170vh;
 	background: #eaeaea;
 }
 .shadow{
@@ -180,7 +180,7 @@ li:hover a{
 .pic1{
 	width: 280px;
 	height: 350px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 	margin: 20px;
 	margin-top: 30px;
@@ -195,7 +195,7 @@ li:hover a{
 	font-size: 28px;
 	font-weight: 700;
 	color: #c3008b;
-	margin-top: 70px;
+	margin-top: 34px;
 	padding-left: 20px;
 	/*padding-top: 80px;*/
 	text-align: center;
@@ -218,13 +218,13 @@ li:hover a{
 .experiences{
 	width: 20%;
 	height: 100px;
-	border: 1px solid #4caf50;
+	/*border: 1px solid #4caf50;*/
 	float: left;
 	margin: 20px;
 	margin-left: 29px;
 }
 .numbers{
-	color: #c3008b;
+	/*color: #c3008b;*/
 	font-size: 25px;
 	text-align: center;
 	padding-top: 22px;
@@ -256,24 +256,61 @@ li:hover a{
 .skills_set{
 	width: 17%;
 	height: 200px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: left;
 	/*margin-top: 50px;*/
 	margin: 10px;
 	margin-left: 18px;
 }
+.logo{
+	width: 50px;
+	height: 50px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
 .progress{
 	width: 90%;
 	height: 10px;
 	/*border: 1px solid blueviolet;*/
-	background: brown;
+	background: lightgrey;
 	margin-top: 20px;
 	margin-left: 10px;
 }
 .progress-bar{
 	width: 70%;
 	height: 10px;
-	background-color: green
+	background-color: green;
+	/*margin-top: 10px;*/
+
+}
+.progress-bar1{
+	width: 70%;
+	height: 10px;
+	background-color: orange;
+	/*margin-top: 10px;*/
+
+}
+.progress-bar2{
+	width: 70%;
+	height: 10px;
+	background-color: orangered;
+	/*margin-top: 10px;*/
+
+}
+.progress-bar3{
+	width: 70%;
+	height: 10px;
+	background-color: darkred;
+	/*margin-top: 10px;*/
+
+}
+.progress-bar4{
+	width: 70%;
+	height: 10px;
+	background-color: skyblue;
 	/*margin-top: 10px;*/
 
 }
@@ -293,11 +330,88 @@ li:hover a{
 
 .my_work{
 	width: 100%;
-	height: 110vh;
+	height: 180vh;
 	background: #eaeaea;
 	clear: both;
 }
-
+.work_pic1{
+	width: 280px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	/*margin: 20px;*/
+	margin-top: 30px;
+	margin-left: 90px;
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.work_pic2{
+	width: 280px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	/*margin: 20px;*/
+	margin-top: 30px;
+	/*margin-left: 36px;*/
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.work_pic3{
+	width: 280px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	/*margin: 20px;*/
+	margin-top: 30px;
+	/*margin-left: 36px;*/
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.work_pic4{
+	width: 280px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	/*margin: 20px;*/
+	/*margin-top: 30px;*/
+	margin-left: 90px;
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.work_pic5{
+	width: 280px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	/*margin: 20px;*/
+	/*margin-top: 30px;*/
+	/*margin-left: 36px;*/
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.work_pic6{
+	width: 280px;
+	height: 350px;
+	/*border: 1px solid black;*/
+	float: left;
+	/*margin: 20px;*/
+	/*margin-top: 30px;*/
+	/*margin-left: 36px;*/
+		background-image: url(images/sol.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 
 
@@ -305,14 +419,14 @@ li:hover a{
 
 .contact{
 	width: 100%;
-	height: 154vh;
+	height: 149vh;
 	background: white;
 }
 .contact_details{
 	width: 100%;
-	height: 300px;
+	height: 270px;
 	margin-top: 30px;
-	border: 1px solid orange;
+	/*border: 1px solid orange;*/
 	float: left;
 }
 
@@ -351,7 +465,7 @@ li:hover a{
 .map{
 	width: 100%;
 	height: 300px;
-	border: 1px solid blueviolet;
+	/*border: 1px solid blueviolet;*/
 	float: left;
 }
 iframe{
