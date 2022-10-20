@@ -6,11 +6,6 @@
 body{
 	font-family: 'Montserrat',sans-serif;
 }
-/*.outer{
-	width: 100%;
-	height: 100vh;
-	background: orange;
-}*/
 .left_container{
 	width: 20%;
 	height: 100vh;
@@ -30,29 +25,29 @@ body{
 	position: relative;
 }
 .nav{
-	width: 100%;
+	width: 90%;
 	/*background-color: orange;*/
 	/*height: 100vh;*/
 	margin: 0 auto;
 	font-size: 24px;
 	color: rgba(0, 0, 0, 0.2);
 	position: absolute;
-	/*top: 320px;*/
-	bottom: 40px;
-	left: 10px;
-	/*text-align: center;*/
-
+	bottom: 50px;
+	text-align: center;
+    margin-left: 5%;
 }
 .manu_text{
 	padding: 14px;
 }
 ul {
 	list-style-typse: none;
+	/*text-decoration: none;*/
 }
 li{
 	margin: 0 auto;
 	padding-top: -50px;
 	padding: 8px 30px;
+	text-decoration: none;
 }
 .nav a{
 	color: rgba(255, 255, 255, 0.7);
@@ -84,6 +79,7 @@ li:hover a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	/*border-top: 4px #03a9f4;*/
 }
 .section_details{
 	text-align: center;
@@ -91,16 +87,17 @@ li:hover a{
 .hello{
 	font-size: 19px;
 	text-align: center;
+	/*line-height: 60px;*/
 }
 .sarveen{
 	font-size: 2.7em;
-	color: #03a9f496;
-	 font-weight: 700;
-	  font-family: 'Jost', sans-serif;
+	font-weight: 700;
+	font-family: 'Jost', sans-serif;
+	line-height: 70px;
 }
 .frontend{
 	font-size: 22px;
-	 text-align: center;
+	text-align: center;
 }
 .hire{
 	text-decoration: none;
@@ -149,12 +146,12 @@ li:hover a{
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
-	 padding-top: 10px;
-	  font-size: 21px;
-	  color: rgba(0, 0, 0, 0.4);
-	  line-height: 33px;
-	  padding: 30px;
-	  /*border: 1px solid black;*/
+	padding-top: 10px;
+	font-size: 21px;
+	color: rgba(0, 0, 0, 0.4);
+	line-height: 33px;
+	padding: 30px;
+	/*border: 1px solid black;*/
 }
 .self_pics{
 	width: 100%;
@@ -173,7 +170,7 @@ li:hover a{
 	margin: 5px;
 	margin-top: 30px;
 	/*margin-left: 36px;*/
-		background-image: url(images/sol.svg);
+	background-image: url(images/sol.svg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -186,30 +183,16 @@ li:hover a{
 	margin: 5px;
 	margin-top: 30px;
 	/*margin-left: 36px;*/
-		background-image: url(images/profile13.jpg);
+	background-image: url(images/profile13.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-/*.pic2{
-	width: 280px;
-	height: 350px;
-	border: 1px solid black;
-	float: left;
-	margin: 5px;
-	margin-top: 30px;
-	margin-left: 36px;
-		background-image: url(images/profile10.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-}*/
-
 
 .hobbies{
 	font-size: 28px;
 	font-weight: 700;
-	color: #03a9f496;
+	color: #2196f3;
 	margin-top: 34px;
 	padding-left: 20px;
 	/*padding-top: 80px;*/
@@ -219,8 +202,8 @@ li:hover a{
 }
 .facts1{
 	width: 100%;
-	height: 140px;
-	border: 1px solid black;
+	height: 130px;
+	/*border: 1px solid black;*/
 	margin-top: 40px;
 	/*text-align: center;*/
 }
@@ -231,64 +214,43 @@ li:hover a{
 	/*color: #c3008b;*/
 	padding-left: 20px;
 }
+
 .experiences{
 	width: 18%;
 	height: 100px;
-	border: 1px solid #4caf50;
+	/*border: 1px solid #4caf50;*/
 	float: left;
 	margin: 13px;
-	/*margin-left: 29px;*/
-}
-/*.experiences1{*/
-	width: 18%;
-	height: 100px;
-	border: 1px solid #4caf50;
-	float: left;
-	margin: 13px;
-	/*margin-left: 29px;*/
-}
-/*.experiences2{*/
-	width: 18%;
-	height: 100px;
-	border: 1px solid #4caf50;
-	float: left;
-	margin: 13px;
-	/*margin-left: 29px;*/
-}
-.experiences{
-	width: 18%;
-	height: 100px;
-	border: 1px solid #4caf50;
-	float: left;
-	margin: 13px;
-	/*margin-left: 29px;*/
+	margin-left: 5%;
+
 }
 .sign{
 	/*color: #c3008b;*/
 	/*font-size: 25px;*/
 	text-align: center;
-	padding-top: 22px;
+	padding-top: 35px;
 	/*font-weight: 700;*/
 }
 .sign1{
 	/*color: #c3008b;*/
 	/*font-size: 25px;*/
 	text-align: center;
-	padding-top: 22px;
+	padding-top: 35px;
 	/*font-weight: 700;*/
 }
 .sign2{
 	/*color: #c3008b;*/
 	/*font-size: 25px;*/
 	text-align: center;
-	padding-top: 22px;
+	padding-top: 35px;
 	/*font-weight: 700;*/
 }
 .sign3{
 	/*color: #c3008b;*/
 	/*font-size: 25px;*/
 	text-align: center;
-	padding-top: 22px;
+	padding-top: 25px;
+	font-size: 28px;
 	/*font-weight: 700;*/
 }
 .position{
@@ -339,12 +301,14 @@ li:hover a{
 	background: lightgrey;
 	margin-top: 20px;
 	margin-left: 10px;
+	border-radius: 20px;
 }
 .progress-bar{
 	width: 70%;
 	height: 10px;
 	background-color: #f16529;
 	/*margin-top: 10px;*/
+	border-radius: 20px;
 
 }
 .progress-bar1{
@@ -352,6 +316,7 @@ li:hover a{
 	height: 10px;
 	background-color: #2965f1;
 	/*margin-top: 10px;*/
+	border-radius: 20px;
 
 }
 .progress-bar2{
@@ -359,6 +324,7 @@ li:hover a{
 	height: 10px;
 	background-color: #7309f5;
 	/*margin-top: 10px;*/
+	border-radius: 20px;
 
 }
 .progress-bar3{
@@ -366,6 +332,7 @@ li:hover a{
 	height: 10px;
 	background-color: #e8c831;
 	/*margin-top: 10px;*/
+	border-radius: 20px;
 
 }
 .progress-bar4{
@@ -373,10 +340,11 @@ li:hover a{
 	height: 10px;
 	background-color: skyblue;
 	/*margin-top: 10px;*/
+	border-radius: 20px;
 
 }
 .experience{
-	color: #03a9f4fc;
+	color: #2196f3;
 	font-size: 18px;
 	padding-left: 10px;
 	padding-top: 20px;
@@ -423,19 +391,7 @@ li:hover a{
 	margin-top: 10px;
 	/*border: 1px solid black;*/
 }
-/*.work_pic1{
-	width: 100%;
-	height: 350px;
-	border: 1px solid black;
-	float: left;
-	/*margin: 20px;*/
-	/*margin-top: 30px;*/
-	/*margin-left: 90px;*/
-	/*background-image: url(images/worki.png) ; width: 100%;*/
-	/*background-position: center;*/
-	/*background-size: cover;*/
-	/*background-repeat: no-repeat;*/
-/*}*/
+
 
 
 
@@ -606,7 +562,7 @@ iframe{
 .description{
 	width: 10s0%;
 	  font-size: 15px;
-	  line-height: 16px;
+	  line-height: 24px;
 }
 
 .self_pics{
@@ -641,7 +597,7 @@ iframe{
 .facts1{
 	width: 100%;
 	/*border: 1px solid blue;*/
-	height: 580px;
+	height: 500px;
 }
 
 .experiences{
@@ -680,8 +636,15 @@ iframe{
 	width: 100%;
 
 }
-
-
+.work_pic1 img{
+	width: 100%;
+}
+.work_pic2 img{
+	width: 100%;
+}
+.work_pic3 img{
+	width: 100%;
+}
 
 .contact_details{
 	width: 100%;
@@ -735,7 +698,7 @@ iframe{
 .nav{
 	width: 100%;
 	position: absolute;
-	bottom: 300px;
+	bottom: 60px;
 	/*left: 20px;*/
 	margin: 0 auto;
 }
@@ -802,7 +765,7 @@ iframe{
 }
 .facts1{
 	width: 100%;
-	height: 200px;
+	height: 240px;
 	/*border: 1px solid black;*/
 }
 .experiences{
@@ -811,8 +774,7 @@ iframe{
 	/*border: 1px solid blueviolet;*/
 	float: left;
 	margin: 10px;
-	padding: 5px;
-	margin-left: 17%;
+	margin-left: 11%;
 }
 .experiences1{
 	width: 30%;
@@ -861,6 +823,9 @@ iframe{
 .sign3 img{
 	width: 22%;
 }
+.sign3{
+	padding-top: 34px;
+}
 
 
 .skills_set{
@@ -868,7 +833,15 @@ iframe{
 	margin: 37px;
 }
 
-
+.work_pic1 img{
+	width: 100%;
+}
+.work_pic2 img{
+	width: 100%;
+}
+.work_pic3 img{
+	width: 100%;
+}
 
 
 
